@@ -14,24 +14,18 @@ connectCloudinary();
 
 // Allow multiple origins
 
-// app.use(
-//   cors({
-//     origin: [
-//       "http://localhost:5173",
-//       "http://localhost:5174",
-//       "https://vercel-adminpanel.vercel.app",
-//       "https://vercel-frontend-coral-two.vercel.app"],
-//     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
-//     allowedHeaders: ["Content-Type", "Authorization", "atoken", "token","dtoken"],
-//     credentials: true
-//   })
-// );
-
-app.use(cors());
-
-app.options("*", cors());
-
-
+app.use(
+  cors({
+    origin: [
+      "http://localhost:5173",
+      "http://localhost:5174",
+      "https://fyp-imds.vercel.app",
+      ],
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
+    allowedHeaders: ["Content-Type", "Authorization", "atoken", "token","dtoken"],
+    credentials: true
+  })
+);
 
 app.use(express.json());
 
