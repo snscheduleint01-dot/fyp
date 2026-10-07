@@ -20,6 +20,7 @@ app.use(
       "http://localhost:5173",
       "http://localhost:5174",
       "https://fyp-imds.vercel.app",
+      "https://fyp-clm4.vercel.app"
       ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization", "atoken", "token","dtoken"],
