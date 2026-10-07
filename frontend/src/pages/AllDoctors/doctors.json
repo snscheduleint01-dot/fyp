@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Dr. John Doe",
+    "category": "Cardiology Specialist",
+    "description": "Expert in heart diseases with 10+ years of experience.",
+    "image": "img/team-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dr. Sarah Khan",
+    "category": "Neurologist",
+    "description": "Specialist in brain and nervous system disorders.",
+    "image": "img/team-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dr. Ali Raza",
+    "category": "Orthopedic Surgeon",
+    "description": "Experienced in bone and joint surgeries.",
+    "image": "img/team-3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Dr. Emily Watson",
+    "category": "Dermatologist",
+    "description": "Skin care expert with modern treatment techniques.",
+    "image": "img/team-1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dr. Ahmed Hassan",
+    "category": "Pediatrician",
+    "description": "Child specialist focused on healthy growth and care.",
+    "image": "img/team-2.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dr. Maria Lopez",
+    "category": "Gynecologist",
+    "description": "Expert in women's health and maternity care.",
+    "image": "img/team-3.jpg"
+  }
+]
